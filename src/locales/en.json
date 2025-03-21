@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome",
+  "about": "About Me",
+  "portfolio": "Portfolio",
+  "skills": "Skills",
+  "contact": "Contact",
+
+  "footer": {
+    "contactMe": "Contact Me",
+    "email": "Email",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "copyright": "Vladislav Muravyev. All rights reserved."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "welcome": "Добро пожаловать",
+  "about": "Обо мне",
+  "portfolio": "Портфолио",
+  "skills": "Навыки",
+  "contact": "Контакты",
+
+  "footer": {
+    "contactMe": "Свяжитесь со мной",
+    "email": "Email",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "copyright": "Владислав Муравьев. Все права защищены."
+  }
+}
