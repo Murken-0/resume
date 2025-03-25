@@ -2,13 +2,13 @@
   <header class="bg-white shadow-md">
     <div class="container mx-auto px-4 py-6 flex justify-between">
       <div class="text-xl font-semibold text-gray-800">
-        {{ $t('welcome') }}
+        {{ $t('header.welcome') }}
       </div>
 
       <div class="flex items-center">
         <nav class="space-x-6">
-          <router-link to="/about" class="w-30 text-gray-700 hover:text-blue-600">{{ $t('about') }}</router-link>
-          <router-link to="/portfolio" class="w-30 text-gray-700 hover:text-blue-600">{{ $t('portfolio') }}</router-link>
+          <router-link to="/about" class="w-50 text-gray-700 hover:text-blue-600">{{ $t('header.about') }}</router-link>
+          <router-link to="/portfolio" class="w-50 text-gray-700 hover:text-blue-600">{{ $t('header.portfolio') }}</router-link>
         </nav>
         <button
           @click="changeLanguage"

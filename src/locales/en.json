@@ -1,15 +1,68 @@
 {
-  "welcome": "Welcome",
-  "about": "About Me",
-  "portfolio": "Portfolio",
-  "skills": "Skills",
-  "contact": "Contact",
-
+  "header": {
+    "welcome": "Welcome",
+    "about": "About Me",
+    "portfolio": "Portfolio"
+  },
   "footer": {
     "contactMe": "Contact Me",
     "email": "Email",
     "telegram": "Telegram",
     "github": "GitHub",
     "copyright": "Vladislav Muravyev. All rights reserved."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate backend developer with 6 months of hands-on experience in building robust systems using C# and .NET ecosystem. My expertise covers developing RESTful APIs, working with containerized applications (Docker), and implementing event-driven architectures using Kafka. I have practical experience with both SQL (PostgreSQL) and NoSQL (MongoDB) databases, and I'm actively expanding my knowledge in cloud technologies. What sets me apart is my strong foundation in computer science principles combined with quick learning ability - I can efficiently grasp new concepts and apply them to solve real-world problems. I'm particularly interested in positions where I can contribute to scalable system design while growing under the guidance of experienced engineers. My goal is to evolve into a well-rounded technical specialist capable of designing high-load distributed systems.",
+    "techTitle": "Key Technologies",
+    "skills": [
+      "C#", "LINQ", "Entity Framework",
+      "SQL", ".NET", "ASP.NET Web Api", "REST API",
+      "HTML", "CSS", "JavaScript", "VueJS",
+      "Docker", "Git", "Python"
+    ],
+    "personalTitle": "Personal Traits",
+    "traits": [
+      "Solid understanding of OOP and SOLID principles",
+      "Experience with microservices communication patterns",
+      "Knowledge of database optimization techniques",
+      "Familiar with CI/CD pipelines implementation",
+      "Comfortable working in Agile environments",
+      "Strong problem-solving and analytical thinking"
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "techStack": "Technology Stack",
+    "viewOnGitHub": "View on GitHub",
+    "liveDemo": "Live Demo",
+    "projects": {
+      "automation": {
+        "title": "Windows Automation Platform",
+        "description": "System for automating any user actions (clicks, text input, navigation) in Windows applications",
+        "details": [
+          "Supports 50+ different applications",
+          "Nginx reverse proxy for secure access",
+          "Comprehensive API documentation via Swagger",
+          "Solved compatibility issues with legacy apps"
+        ],
+        "technologies": ["C#", "ASP.NET Core", "VueJS", "Hangfire", "Appium", "WinAppDriver", "PostgreSQL"],
+        "github": "https://github.com/Murken-0/WinAutomationPlatform"
+      },
+      "university": {
+        "title": "University Data Storage System",
+        "description": "Distributed academic data management system with microservice architecture",
+        "details": [
+          "10+ entities: students, groups, schedules etc.",
+          "JWT authorization with role model",
+          "Dynamic data migration via Kafka Connect",
+          "Each microservice handles its own request type"
+        ],
+        "technologies": ["Python", "FastAPI", "Docker", "Kafka", "PostgreSQL", "MongoDB", "Redis", "Neo4j", "ElasticSearch"],
+        "github": "https://github.com/Murken-0/UnivercityAnalyticsSystem",
+        "demo": "https://university-demo.example.com"
+      }
+    }
   }
+
 }
