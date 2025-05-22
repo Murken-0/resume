@@ -1,35 +1,15 @@
-# resume
+# Проект сайта-визитки
 
-This template should help get you started developing with Vue 3 in Vite.
+## Муравьев В.Р. ЭФМО-02-24
 
-## Recommended IDE Setup
+### Раздел "About Me" EN
+![image](https://github.com/user-attachments/assets/55865e3c-29e4-4b14-858c-edeee7c658bd)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Раздел "Обо мне" RU
+![image](https://github.com/user-attachments/assets/9bec2ec2-9609-4d69-a3c2-e7bca17ec97f)
 
-## Customize configuration
+### Раздел "Portfolio" EN
+![image](https://github.com/user-attachments/assets/ac59909e-49db-4dd7-a657-56b8ea28c558)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Раздел "Партфолио" RU
+![image](https://github.com/user-attachments/assets/4be5a355-2bec-4804-a3af-ddb45df0f8f3)
